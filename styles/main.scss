@@ -1,0 +1,165 @@
+body,
+html {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 150vh;
+  justify-content: center;
+}
+
+section .form {
+  margin-left: 25px;
+}
+
+[name="flex-container"] {
+  width: 1030px;
+  height: 400px;
+  margin-left: 25px;
+  margin-top: 50px;
+  // border: 2px solid green;
+  flex-flow: column;
+  background: -webkit-linear-gradient(left top,red,orange,yellow,green);
+}
+
+input[name="firstname"] {
+  width: 435px;
+  height: 40px;
+  flex-grow: 1;
+  margin-left: 0;
+  //border: 3px solid green;
+}
+
+input[name="lastname"] {
+  width: 480px;
+  height: 40px;
+  flex-grow: 1;
+  margin-left: 12px;
+  //border: 3px solid green;
+}
+
+input[name="date"] {
+  width: 300px;
+  height: 40px;
+  flex-grow: 1;
+  margin-left: 12px;
+  //border: 3px solid blue;
+}
+
+input[name="color"] {
+  width: 40px;
+  height: 35px;
+  flex-grow: 1;
+  margin-left: 12px;
+  padding: 3px;
+  //margin-top: 10px;
+  //border: 3px solid silver;
+}
+
+input[name="age"] {
+  width: 150px;
+  height: 40px;
+  flex-grow: 1;
+  margin-left: 25px;
+  //border: 3px solid yellow;
+}
+
+input[name="email"] {
+  width: 385px;
+  height: 40px;
+  flex-grow: 1;
+  //  border: 3px solid red;
+  //  margin-left: 25px;
+}
+
+input[name="referal"] {
+  width: 530px;
+  height: 40px;
+  flex-grow: 1;
+  margin-left: 12px;
+  //border: 3px solid black;
+}
+
+input[name="password"] {
+  width: 250px;
+  height: 40px;
+  flex-grow: 1;
+  margin-left: 12px;
+  //border: 3px solid purple;
+}
+
+h1 {
+  margin-left: 50px;
+  height: 40px;
+  color: white;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+[name="fullname"] {
+  //width: auto;
+  //align-content: flex-end;
+  //justify-content: flex-end;
+  //  border: 2px solid red;
+  height: 40px;
+  margin: 5px 0 10px 25px;
+  padding: 0;
+}
+
+[name="age/date"] {
+  justify-content: flex-start;
+  //  border: 2px solid blue;
+  height: 40px;
+  margin: 5px 0 10px 25px;
+}
+
+[name="email"] {
+  //border: 2px solid  yellow;
+  width: 600px;
+  align-items: row;
+  justify-content: flex-start;
+  height: 40px;
+  margin: 10px 0 10px 25px;
+}
+
+[name="radio"] {
+  width: 600;
+  justify-content: flex-start;
+  margin-left: 55px;
+  //  border: 2px solid orange;
+  height: 20px;
+  padding: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+/*.button {
+  border: 2px solid purple;
+  flex-grow: 1;
+  margin: 10px 0 10px 50px;
+}*/
+
+button {
+  display: inline-block; //border: 2px solid purple;
+  width: 930px;
+  height: 40px;
+  margin-left: 50px;
+  margin-top: 15px;
+  background: rgb(39, 126, 11);
+  color: white;
+  font-size: 18px;
+  @keyframe mybutton {
+    from {
+      top: 0;
+    }
+
+    to {
+      top: 100px;
+    }
+  }
+}
+
+img {
+  margin-top: 200px;
+}

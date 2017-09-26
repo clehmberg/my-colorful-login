@@ -1,0 +1,102 @@
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles\main.scss">
+
+  <title>Colorful login</title>
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- Web Application Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Web Starter Kit">
+  <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+  <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+  <meta name="msapplication-TileColor" content="#2F3BA2">
+
+  <!-- Color the status bar on mobile devices -->
+  <meta name="theme-color" content="#2F3BA2">
+
+  <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+  <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+</head>
+
+<body>
+
+  <section name="flex-container">
+    <h1>My Colorful Login</h1>
+    <form class="form" action="index.html" method="post">
+
+      <section class="form" name="fullname">
+        <form class="labels" action="index.html" method="post">
+          <label for="firstname"></label>
+          <input type="text" name="firstname" placeholder="   First name">
+          <label for="lastname"></label>
+          <input type="text" name="lastname" placeholder="   Last name">
+        </form>
+      </section>
+
+
+
+      <section class="form" name="age/date">
+        <label for="age"></label>
+        <input type="text" name="age" min="0" max="120" value="  21">
+
+        <label for="date"></label>
+        <input type="number" name="date" maxlength="10" placeholder="   mm/dd/yyyy">
+
+        <label for="color"></label>
+        <input type="color" name="color">
+
+        <label for="password"></label>
+        <input type="text" name="password" min="6" placeholder="   ******">
+      </section>
+
+      <section class="form">
+        <label for="email"></label>
+        <input type="text" name="email" placeholder="   joeblow@dork.com">
+        <label for="referal"></label>
+        <input type="text" name="referal" placeholder="   How did you hear about us?">
+        <!--<select class="" name="referal">
+              <optgroup label="Friend"></optgroup>
+              <optgroup label="email"></optgroup>
+              <optgroup label="telepathy"></optgroup>
+            </select> -->
+      </section>
+
+
+      <section name="radio">
+        <input type="radio" name="text-only"> Text
+        <input type="radio" name="textandemail"> Text and Email
+        <input type="radio" name="none"> None
+      </section>
+
+      <section class="button">
+        <button type="button" name="submit">Log in</button>
+      </section>
+
+      <img src="https://heliotraining.instructure.com/files/302/download?download_frd=1&verifier=WS89hpIkXwaPMqQszfzS8tgP8OhQwJ6eff3v2B5I" alt="">
+    </form>
+  </section>
+</body>
+
+</html>
